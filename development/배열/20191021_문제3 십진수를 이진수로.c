@@ -11,7 +11,7 @@ int main() {
 
 	// ex) 15
 	if (decimal >= 16) {
-		printf("16ÀÌ»óÀÇ ¼ýÀÚ´Â Ã£À» ¼ö ¾ø½À´Ï´Ù.");
+		printf("16ì´ìƒì˜ ìˆ«ìžëŠ” ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 	}
 	else {
 		for (int i = 0; i < size; i++) {
