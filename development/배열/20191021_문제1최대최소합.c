@@ -5,9 +5,9 @@ int main() {
 	int max, min;
 	int sum =0;
 
-	printf("¹®ÀÚ ÀÔ·Â : ");
+	printf("ë¬¸ì ì…ë ¥ : ");
 	for (int i = 0; i < 5; i++) {
-		//Á¤¼ö 5°³ ÀÔ·Â. arr[0]~ arr[4]±îÁö ÀúÀå
+		//ì •ìˆ˜ 5ê°œ ì…ë ¥. arr[0]~ arr[4]ê¹Œì§€ ì €ì¥
 		scanf("%d", &arr[i]);
 	}
 
