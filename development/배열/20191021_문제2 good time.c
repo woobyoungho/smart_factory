@@ -8,17 +8,17 @@ int main() {
 		while (1) {
 			system("cls");
 		
-			printf("¹®Àå ÀÔ·Â : ");
+			printf("ë¬¸ìž¥ ìž…ë ¥ : ");
 			for (i = 0; i < 10; i++) {
 				scanf("%c", &ch[i]);
 			}
 
-			printf("¹®Àå Ãâ·Â : ");
+			printf("ë¬¸ìž¥ ì¶œë ¥ : ");
 			for (i = 0; i < 10; i++) {
 				printf("%c", ch[i]);
 			}
 
-			printf("ÇÁ·Î±×·¥À» ÁøÇàÇÏ°Ú½À´Ï±î?(Y/N)");
+			printf("í”„ë¡œê·¸ëž¨ì„ ì§„í–‰í•˜ê² ìŠµë‹ˆê¹Œ?(Y/N)");
 			scanf("%c", &p);
 			p = getch();
 
