@@ -26,7 +26,7 @@ int main() {
 		*/
 
 	/*
-	//shift ¿¬»ê ÀÌ¿ëÇØ¼­ 2ÀÇ ´©½Â ½±°Ô ¾Ë ¼ö ÀÖ´Ù.
+	//shift ì—°ì‚° ì´ìš©í•´ì„œ 2ì˜ ëˆ„ìŠ¹ ì‰½ê²Œ ì•Œ ìˆ˜ ìˆë‹¤.
 	decimal += binary[0] * (1 << 3);
 	decimal += binary[1] * (1 << 2);
 	decimal += binary[2] * (1 << 1);
@@ -35,7 +35,7 @@ int main() {
 
 
 	int size = sizeof(binary) / sizeof(int);
-	// char Çü°ú ´Ş¸® intÇüÀº 4byteÀÌ±â ¶§¹®¿¡ ³ª´©±â¸¦ ÇØÁØ´Ù.
+	// char í˜•ê³¼ ë‹¬ë¦¬ intí˜•ì€ 4byteì´ê¸° ë•Œë¬¸ì— ë‚˜ëˆ„ê¸°ë¥¼ í•´ì¤€ë‹¤.
 	printf("%d\n", size);
 
 
