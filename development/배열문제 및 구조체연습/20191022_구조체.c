@@ -15,34 +15,34 @@ int main() {
 	char name[100];
 	char address[1000];
 	
-	printf("³ªÀÌ : ");
+	printf("ë‚˜ì´ : ");
 	scanf("%d", &age);
 	
-	printf("\nÀÌ¸§ : ");
+	printf("\nì´ë¦„ : ");
 	scanf("%s", name);
 
-	printf("\nÁÖ¼Ò : ");
+	printf("\nì£¼ì†Œ : ");
 	scanf("%s", address);
 	
-	printf("\n<³ªÀÌ : %d>\n", age);
-	printf("<ÀÌ¸§ : %s>\n", name);
-	printf("<ÁÖ¼Ò : %s>\n", address);
+	printf("\n<ë‚˜ì´ : %d>\n", age);
+	printf("<ì´ë¦„ : %s>\n", name);
+	printf("<ì£¼ì†Œ : %s>\n", address);
 	*/
 
 
 	/*
 	char arr[] = "Good bye";
-	//¿ø·¡ ¹è¿­ÀÇ ¸ğ¾çÀº
+	//ì›ë˜ ë°°ì—´ì˜ ëª¨ì–‘ì€
 	// { 'G', 'o', 'o', 'd', '0' };
 	int size = sizeof(arr);
-	//¿ø·¡ ¹è¿­Àº 0À» Æ÷ÇÔÇÏ°í ÀÖ¾î good¸é -> '5' Ãâ·Â
+	//ì›ë˜ ë°°ì—´ì€ 0ì„ í¬í•¨í•˜ê³  ìˆì–´ goodë©´ -> '5' ì¶œë ¥
 	int length = my_strlen(arr);
-	//¹®ÀÚ¿­ ±æÀÌ¸¦ ¾Ë·ÁÁÖ´Â °Í  good¸é -> '4'
+	//ë¬¸ìì—´ ê¸¸ì´ë¥¼ ì•Œë ¤ì£¼ëŠ” ê²ƒ  goodë©´ -> '4'
 
 	char num_str[] = "1234";
 	int num = my_atoi(num_str) + 5;
-	//¹®ÀÚ¿­À» ¼ıÀÚ·Î º¯È¯½ÃÄÑÁÖ´Â ÇÔ¼ö atoi
-	//¼ıÀÚ¸¸ °¡´É
+	//ë¬¸ìì—´ì„ ìˆ«ìë¡œ ë³€í™˜ì‹œì¼œì£¼ëŠ” í•¨ìˆ˜ atoi
+	//ìˆ«ìë§Œ ê°€ëŠ¥
 
 	printf("size : %d\n", size);
 	printf("length : %d\n", length);
@@ -63,7 +63,7 @@ int main() {
 	int* b = &a;
 	char c = 1;
 	char* d = &c;
-	//ÁÖ¼Ò ±æÀÌ´Â °¡º¯
+	//ì£¼ì†Œ ê¸¸ì´ëŠ” ê°€ë³€
 
 	printf("%d\n", sizeof(a));
 	printf("%d\n", sizeof(b));
@@ -78,11 +78,11 @@ int main() {
 	person2.age = 33;
 
 	printf("%d, %d, %d\n", person[0], person[1], person[2]);
-	//ÀÎµ¦½º¸¦ »ç¿ëÇÏ´Â °Í
+	//ì¸ë±ìŠ¤ë¥¼ ì‚¬ìš©í•˜ëŠ” ê²ƒ
 
 	printf("%d, %.2f, %.2f, %s\n", person2.age, person2.height, person2.weight, "WBH");
-	//±¸Á¶Ã¼´Â ' . ' »ç¿ë
-	//¹è¿­·Î ÇÏ±â¿¡´Â ºÒÆíÇÔÀÌ ÀÖ¾î¼­ ±¸Á¶Ã¼¸¦ »ç¿ë
+	//êµ¬ì¡°ì²´ëŠ” ' . ' ì‚¬ìš©
+	//ë°°ì—´ë¡œ í•˜ê¸°ì—ëŠ” ë¶ˆí¸í•¨ì´ ìˆì–´ì„œ êµ¬ì¡°ì²´ë¥¼ ì‚¬ìš©
 	
 	return 0;
 }
